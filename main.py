@@ -1,7 +1,5 @@
-from PIL import Image, ImageDraw
+from PIL import Image
 import numpy as np
-import os
-import sys
 import cv2
 import torch
 def change_matrix(input_mat: np.ndarray, stroke_size: int) -> np.ndarray:
